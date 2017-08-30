@@ -5,7 +5,7 @@ title: Course Notes
     <h1>{{ page.title }}</h1>
     <ul class="posts">
 
-      {% for subject in site.posts.notes %}
+      {% for subject in site.category.notes %}
         <li><span>{{subject.coursecode}}</span>: <a href="{{ subject.url }}" title="{{ subject.title }}">{{ subject.name }} - {{subject.term }} - {{subject.professor}}</a></li>
       {% endfor %}
     </ul>
