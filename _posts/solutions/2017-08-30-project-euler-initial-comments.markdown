@@ -1,8 +1,0 @@
----
-layout: post
-title: "Project Euler"
-date: 2017-08-29
-category: euler
----
-
-For those of you who are not familiar with Project Euler, it's a website that offers interesting problems which require some basic mathematics along with programming knowledge to solve. As the questions get harder, it is often both the math and the runtime that become more demanding. It offers a nice balance for anyone who is interested in math and competitive programming.
