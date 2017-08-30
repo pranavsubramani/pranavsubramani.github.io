@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Algorithms"
+coursecode: "341"
+professor: "Anna Lubiw"
+term: "Fall 2017"
+---
