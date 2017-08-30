@@ -1,2 +1,5 @@
 name: Pranav Subramani
 markdown: Kramdown
+permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll-sitemap
