@@ -14,7 +14,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #2a7ae2;
 }
 a:hover {
     text-decoration: underline;
@@ -57,6 +57,14 @@ ul.coursenotes li {
 }
 
 .synopsis {
-    font-size: 15px;
+    font-size: 11px;
     color: #818181;
+}
+
+.bloglinks {
+    color: #2a7ae2;
+}
+
+a:visited {
+    color: #205caa;
 }
