@@ -49,3 +49,9 @@ ul.pesolutions li {
 ul.coursenotes li {
     list-style: none;
 }
+
+.posts .post-date {
+  display: block;
+  font-size: 15px;
+  color: #818181;
+}
