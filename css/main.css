@@ -42,14 +42,6 @@ ul.posts li {
     list-style: none;
 }
 
-ul.pesolutions li {
-    list-style: none;
-}
-
-ul.coursenotes li {
-    list-style: none;
-}
-
 .posts .post-date {
   display: block;
   font-size: 15px;
@@ -66,7 +58,7 @@ a:visited {
 }
 
 .date-format {
-    display: block;
-    color: #818181;
-    font-size: 15px;
+    display: block !important;
+    color: #818181 !important;
+    font-size: 15px !important;
 }
