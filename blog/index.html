@@ -6,7 +6,8 @@ title: Pranav Subramani Blog
     <ul class="posts">
 
       {% for post in site.posts %}
-        <li><span class="post-date">{{ post.date | date_to_string }}</span>
+        <li><span>{{ post.date | date_to_string }}</span>
+        <br></br>
          <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
