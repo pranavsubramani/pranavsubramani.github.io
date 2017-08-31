@@ -64,3 +64,9 @@ ul.coursenotes li {
 a:visited {
     color: #205caa;
 }
+
+.date-format {
+    display: block;
+    color: #818181;
+    font-size: 15px;
+}
