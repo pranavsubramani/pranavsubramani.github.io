@@ -19,3 +19,5 @@ EDIT: 2019 - After around 2 years, I've finally started finding more time on ave
 4. Probabilistic Graphical Models (classical)
 
 And a bunch of other areas! If you find anything to be questionable or interesting, feel free to reach out to me and ask me questions about the blog posts.
+
+Also feel free to make a PR to the repository and I'll review it and make it a blog post.
