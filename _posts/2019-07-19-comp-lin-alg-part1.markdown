@@ -61,7 +61,7 @@ $$\Large
 \end{array}\right)
 $$
 
-Now, solving the second system of equations, we obtain $-0.1 \times 10^{5} x_2 = -0.1 \times 10^{5} \implies x_2 = 1$. If $x_2 = 1$, then we must have that $x_1 = 0$. However, this is clearly false, since this answer does not agree with our theoretical result. Moreover, if we plug in our values into equation $2$, we know that $1 \neq 2$ (no matter who shows you otherwise!). Thus, we've encountered a possible bug in the implementation of gaussian elimination, simply because we picked the wrong pivot!
+Now, solving the second system of equations, we obtain $-0.1 \times 10^{5} x_2 = -0.1 \times 10^{5} \implies x_2 = 1$. If $x_2 = 1$, then we must have that $x_1 = 0$. Note that $-9999$ cannot be accurately represented in our floating point system, so we must round it, which is how we arrive at $0.1 \times 10^5$. However, this is clearly false, since this answer does not agree with our theoretical result. Moreover, if we plug in our values into equation $2$, we know that $1 \neq 2$ (no matter who shows you otherwise!). Thus, we've encountered a possible bug in the implementation of gaussian elimination, simply because we picked the wrong pivot!
 
 How do we fix this? In this case, it is an obvious fix, because we only have two choices for a pivot, and one of them did not work. However, what is a possible general strategy that abstracts to arbitrary systems of linear equations?
 
