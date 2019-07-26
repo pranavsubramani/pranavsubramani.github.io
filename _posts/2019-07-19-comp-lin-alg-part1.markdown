@@ -20,7 +20,7 @@ Solving systems of linear equations on the computer has a plethora of benefits, 
 
 To begin with, we must first understand that we have to explain how to deal with this notion of precision in a computer. If the reader has taken a course in Numerical Methods, they may choose to omit this section as this material is likely repetitive.
 
-Most floating point systems can be characterized with the following values: $\beta$ which represents the base (e.g. Decimal, Binary), $\alpha$ which represents the exponent, usually the range will be from $[-\alpha, \alpha]$, and finally $t$ which represents the precision, or, how many significant figures we are willing to express numbers to. It should also be noted that for some $e \in [-\alpha, \alpha], e \in \mathbb{Z}$.
+Most floating point systems can be characterized with the following values: $\beta$ which represents the base (e.g. Decimal, Binary), $\alpha$ which represents the exponent range, usually it is of the form $[-\alpha, \alpha]$, and finally $t$ which represents the precision, or, how many significant figures we are willing to express numbers to. It should also be noted that for all $e \in [-\alpha, \alpha], e \in \mathbb{Z}$.
 
 An example of a number written in this format is, the number $10000$, with $\beta = 10, t = 3, \alpha = 16$, is expressed as $1.0 \times 10^5$, alternatively it could be $10.0 \times 10^4$ (until we have a precision of $3$).
 
