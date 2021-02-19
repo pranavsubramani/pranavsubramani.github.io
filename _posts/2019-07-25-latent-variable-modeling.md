@@ -124,9 +124,10 @@ It should be noted that EM converges monotonically to a stationary point of $\lo
 
 ## Conclusion
 
-Hopefully this post sheds some light into latent variable modeling and how natural the expectation maximization algorithm really is. Finally, we state that EM can be extended to continuous latent variables and categorical latent variables as well with some caveats. In subsequent posts, I'll try to get a little deeper into Variational Inference and Mean-Field approximations.
+Hopefully this post sheds some light into latent variable modeling and how natural the expectation maximization algorithm really is. Finally, we state that EM can be extended to continuous latent variables and categorical latent variables as well with some caveats. In subsequent posts, I'll try to get a little deeper into Variational Inference and Mean-Field approximations. A lot of this lecture can be found on the youtube reference linked below, definitely check it out if this interests you.
 
 ## References
 
 1. https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/14a.EM-algorithm.pdf
 2. http://cs229.stanford.edu/notes/cs229-notes8.pdf
+3. https://www.youtube.com/watch?v=cn4sI39uD_Q&list=PLe5rNUydzV9Q01vWCP9BV7NhJG3j7mz62&index=2
